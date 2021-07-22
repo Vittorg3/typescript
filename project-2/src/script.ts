@@ -1,4 +1,13 @@
-var questions: object[] = [
+type QuestionDetails = {
+    question: string,
+    a: string,
+    b: string,
+    c: string,
+    d: string,
+    answer: string
+};
+
+var questions: QuestionDetails[] = [
     {
         question: 'Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?',
         a: 'Tem entre 2 a 4 litros. São retirados 450 mililitros',
